@@ -1,0 +1,50 @@
+h3 {
+    color: red;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+    /* transition: all .2s; */
+}
+a:hover {color: orangered;
+    /* font-size: 2rem; */
+    font-style: italic;  }
+a:visited {    color: blueviolet;}    
+  
+  /* a:visited {    color: blueviolet;} */
+  
+/* a:active {  color: blue;} */
+.btn {
+        
+        background: #111; 
+        padding: 15px 20px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-family: inherit;
+  }
+  
+.btn:hover {
+  opacity: 0.8;
+  color: orangered;
+}
+.list {
+    padding: 0 20px;
+}
+/list li {
+    color: royalblue;
+    margin-bottom: 15px;
+}
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+

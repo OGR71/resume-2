@@ -1,0 +1,44 @@
+
+.table { 
+    width: 100%;
+    border: 1px solid red;
+}
+
+.table th {
+    text-align: center;
+    padding-bottom: 10px;   
+}
+.table thead {
+    background: #777;
+
+}
+.table tbody tr th:nth-child(2) {
+    background: rgb(135, 135, 230);
+}
+
+.table tbody tr th:nth-child(3) {
+    background: rgb(228, 101, 207);
+}
+.container {
+    width: auto;
+    border-radius: 10px;
+    background: #777;
+    display: block;
+    margin: 20px 10px;
+}
+.box {
+    width: 400px;
+    background: #777;
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 2px 10px;
+}
+.box  p {
+    width: auto;
+    margin: 1px 1px;
+
+}
+.box a h4 {
+    display: inline;
+}

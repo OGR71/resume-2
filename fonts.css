@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif */
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px; 
+    line-height: 1.6em;
+    font-style: italic;
+}
+
+.card { font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 50px;
+    background: yellowgreen;
+    opacity: 1;
+    color: black;
+    border: 3px;
+    border-radius: 10px;
+}
+
+.info-text p {
+   
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.html {
+    background: rgb(69, 243, 185);
+    color: gray;
+}
+h3 {
+    color: red;
+}
+.form h3 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+    
+}
+.form-row .form-group {
+   
+    /* margin-right: 20px; */
+    /* width: calc(50%-20px); */
+    width: 50%;
+    margin-right: 20px;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 700px) {
+    .form-row {display: block;}
+}    
